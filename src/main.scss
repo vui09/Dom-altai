@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Gilroy-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Gilroy-Regular.otf) format("opentype")
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(assets/fonts/Gilroy-Medium.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/Gilroy-Bold.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/Gilroy-SemiBold.otf) format("opentype")
+}
+
+@font-face {
+  font-family: Golos-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/GolosText-Regular.woff) format("opentype")
+}
+
+@font-face {
+  font-family: Golos-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(assets/fonts/GolosText-Medium.woff) format("opentype")
+}
+
+//html {
+//  scroll-behavior: smooth;
+//}
+
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.container{
+  max-width: 1600px;
+  padding: 0 16px;
+  margin: 0 auto;
+  @media (min-width: 1024px) {
+    padding: 0 40px;
+  }
+}
+
+.btn{
+  text-decoration: none;
+  padding: 12px 0;
+  border-radius: 48px;
+  margin-bottom: 12px;
+}
+.btn-white{
+  background: #ffffff;
+  color: #000;
+}
+
+.btn-white:hover{
+  transition: .3s;
+  background: #a3d562;
+}
+
+.btn-transparent{
+  border: 1px solid #FFFFFF;
+  color: #fff;
+}
+
+.btn-transparent:hover{
+  transition: .3s;
+  border-color: #a3d562;
+}
+
+.title{
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  @media (min-width: 1025px) {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 40px;
+  }
+}
+
+.social-item{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
